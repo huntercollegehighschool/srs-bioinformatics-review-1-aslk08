@@ -3,4 +3,7 @@ Define a function isDNA that takes a single string as an input. The string is su
 """
 
 def isDNA(dna):
-  pass  # delete this line when you start writing your code
+  for c in dna:
+    if c != "A" and c != "C" and c != "G" and c != "T":
+      return False
+  return True
