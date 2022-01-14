@@ -4,12 +4,12 @@ Feel free to modify the dna elements to try different DNA strings
 
 import os
 
-part = int(input("Which part(A, B, C, D, E)?")).upper()
+part = input("Which part(A, B, C, D, E)?").upper()
 
 while part not in ['A', 'B', 'C', 'D', 'E']:
   os.system('clear')
   print("That's not a valid part.")
-  part = int(input("Which part(A, B, C, D, E)?")).upper()
+  part = input("Which part(A, B, C, D, E)?").upper()
 
 os.system('clear')
 
